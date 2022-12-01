@@ -4,7 +4,7 @@ const fs = require("fs");
 const app = express();
 const bodyParser = require("body-parser");
 const port = 8000;
-const hostname = "127.0.0.1";
+const hostname = "0.0.0.0";
 
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/contactDance', {useNewUrlParser: true});
